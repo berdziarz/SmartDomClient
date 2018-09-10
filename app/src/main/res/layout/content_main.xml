@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.lukasz.smartdom.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:background="@android:color/black">
+
+
+    <TextView
+        android:text="SmartDom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="43dp"
+        android:id="@+id/textView3"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="30sp"
+        android:textColorHighlight="@android:color/holo_blue_dark"
+        android:textAllCaps="false"
+        android:layout_marginTop="33dp"
+        android:textStyle="normal|bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Oświetlenie"
+        android:layout_width="match_parent"
+        android:id="@+id/oswietleniebtn"
+        android:textColor="@android:color/holo_blue_light"
+        android:width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="67dp"
+        android:textStyle="normal|bold"
+        android:onClick="oswietlenieclick" />
+
+    <Button
+        android:text="Koniec"
+        android:layout_width="wrap_content"
+        android:id="@+id/koniecbtn"
+        android:textColor="@android:color/holo_blue_light"
+        android:width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="normal|bold"
+        android:onClick="koniecclick" />
+
+    <Button
+        android:text="Komfort"
+        android:layout_width="match_parent"
+        android:id="@+id/komfortbtn"
+        android:textColor="@android:color/holo_blue_light"
+        android:width="100dp"
+        android:layout_height="wrap_content"
+        android:textStyle="normal|bold"
+        android:layout_marginTop="30dp"
+        android:elevation="0dp"
+        android:layout_below="@+id/oswietleniebtn"
+        android:layout_alignParentStart="true"
+        android:onClick="komfortclick" />
+
+    <Button
+        android:text="Bezpieczeństwo"
+        android:layout_width="match_parent"
+        android:id="@+id/bezpieczenstwobtn"
+        android:textColor="@android:color/holo_blue_light"
+        android:width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/komfortbtn"
+        android:layout_alignParentStart="true"
+        android:onClick="bezpieczenstwoclick" />
+
+   /
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/conon" />
+
+</RelativeLayout>

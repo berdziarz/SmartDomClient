@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SmartDom</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_oswietlenie">OswietlenieActivity</string>
+    <string name="title_activity_komfort">KomfortActivity</string>
+    <string name="title_activity_bezpieczenstwo">BezpieczenstwoActivity</string>
+</resources>
